@@ -230,12 +230,15 @@ augroup END
 " *** C BUILD SYSTEM *** -------------------------------------------------------------- {{{
 
 " configure make (! mark prevents Vim from jumping to location of first error found)
-"set makeprg=make\ -C\ ../build\
-set makeprg=make\ -C\ ~/training-mpritschet/build\ 07-test
+set makeprg=make\ -C\ ~/training-m/build\ 10-test\ 10-quiz
 nnoremap <F4> :make!<cr>
 
 " Configure Launch
-nnoremap <F5> :!./my_great_program<cr>
+nnoremap <F5> :!~/training-m/build/bin/12-test
+nnoremap <F6> :!~/training-m/build/bin/12-quiz
+
+" Configure CMake ( doesn't work?)
+nnoremap <F3> :!cmake\ -B\ ~/training-m/build\ -S\ ~/training-m
 
 " }}}
 
