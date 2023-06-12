@@ -32,6 +32,8 @@ set t_Co=256
 set termguicolors
 set background=dark
 colorscheme solarized8
+" https://github.com/flazz/vim-colorschemes
+" https://github.com/lifepillar/vim-solarized8
 
 " enable syntax processing
 syntax enable
@@ -82,6 +84,13 @@ set scrolloff=5
 
 " make backspace work in gvim (!so 5419848)
 set backspace=2
+
+" Always display the statusline in all windows
+"set laststatus=2
+" Always display the tabline, even if there is only one tab
+set showtabline=2
+" Hide the default mode text (e.g. -- INSERT -- below the statusline)
+"set noshowmode
 
 " *** BUFFER CYCLING ***
 " use :b-[1-9] to quickly switch to buffer
