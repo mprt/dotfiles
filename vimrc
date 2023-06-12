@@ -16,6 +16,9 @@
 " set rtp+=/usr/share/vim/addons " see !so 836568
 " set rtp+=~/.vim/bundle/Vundle.vim
 
+" locate vimrc files: try ":echo $MYVIMRC" or ":scriptnames" or ":version"
+" https://dougblack.io/words/a-good-vimrc.html
+" http://svn.python.org/projects/python/trunk/Misc/Vim/vimrc
 
 "https://stackoverflow.com/questions/307148/vim-scrolling-slowly
 set ttyfast
@@ -25,6 +28,10 @@ set viminfo+=n~/.vim/viminfo
 
 " Use 256 colours (Use this setting only if your terminal supports 256 colours)
 set t_Co=256
+
+set termguicolors
+set background=dark
+colorscheme solarized8
 
 " enable syntax processing
 syntax enable
@@ -36,6 +43,7 @@ set encoding=utf-8
 " search for tags file in directory of current file. then move upward until /
 " see :h file-searching for information on ';'
 set tags=./tags;/
+" set tags+=../tags
 
 " Delete comment character when joining commented lines
 set formatoptions+=j
@@ -45,11 +53,11 @@ set formatoptions+=j
 " show line numbers
 set number
 
-" show count when searching a string
-set shortmess-=S
-
 " show relative line numbers (hybrid)
 "set relativenumber
+
+" show count when searching a string
+set shortmess-=S
 
 " show command in bottom bar
 set showcmd
@@ -67,6 +75,7 @@ set lazyredraw
 
 " highlight matching [{()}]
 set showmatch
+"set noshowmatch
 
 " Do not let cursor scroll below or above N number of lines when scrolling.
 set scrolloff=5
