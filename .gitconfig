@@ -1,0 +1,17 @@
+# https://git-scm.com/book/de/v2/Git-einrichten-Git-Konfiguration
+[user]
+        name = mprt
+        email = m@prt
+#[url "https://git.yoctoproject.org/git/"]
+#        insteadOf = git://git.yoctoproject.org/
+#[url "https://"]
+#        insteadOf = git://
+#[url "ssh://bitbucket.wtf.de:22/"]
+#        insteadOf = https://bitbucket.wtf.de/scm/
+[core]
+        editor = vim
+#[safe]
+#        directory = FILLMEIN
+#        directory = FILLMEIN
+#[maintenance]
+#        repo = FILLMEIN
