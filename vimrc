@@ -252,11 +252,11 @@ set makeprg=make\ -C\ ~/training-m/build\ 10-test\ 10-quiz
 nnoremap <F4> :make!<cr>
 
 " Configure Launch
-nnoremap <F5> :!~/training-m/build/bin/12-test
-nnoremap <F6> :!~/training-m/build/bin/12-quiz
+nnoremap <F5> :!~/training-m/build/bin/test
+nnoremap <F6> :!~/training-m/build/bin/app
 
 " Configure CMake ( doesn't work?)
-nnoremap <F3> :!cmake\ -B\ ~/training-m/build\ -S\ ~/training-m
+nnoremap <F3> :!cmake\ -B\ ~/training/build\ -S\ ~/training
 
 " }}}
 
@@ -265,20 +265,18 @@ nnoremap <F3> :!cmake\ -B\ ~/training-m/build\ -S\ ~/training-m
 let g:linuxsty_patterns = [ "/usr/src/", "/linux", "/Sigrok/libsigrok/"]
 
 
-
 " GUI SETTINGS -------------------------------------------------------------- {{{
 " If GUI version of Vim is running set these options.
 if has('gui_running')
 
-    " Set the background tone.
+    " Set the background tone, colorscheme and font
     set background=dark
-
-    " Set the color scheme.
+    colorscheme molokai
     colorscheme desert
-
-    " Set a custom font you have installed on your computer.
-    " Syntax: set guifont=<font_name>\ <font_weight>\ <size>
+    " Font Syntax: set guifont=<font_name>\ <font_weight>\ <size>
     set guifont=Ubuntu_Mono_derivative_Powerlin:h10
+    "set guifont=Monospace\ Regular\ 12
+    "set guifont=Noto_Mono_for_Powerline:h9:cANSI:qDRAFT
 
     " Display more of the file by default.
     " Hide the toolbar.
