@@ -6,6 +6,8 @@ git clone --depth=1 https://github.com/ctrlpvim/ctrlp.vim.git ~/.vim/pack/plugin
 
 https://github.com/vim-airline/vim-airline
 
+https://beyondgrep.com/why-ack/
+
 https://github.com/tpope/vim-commentary
 https://github.com/tpope/vim-fugitive
 https://github.com/tpope/vim-surround
