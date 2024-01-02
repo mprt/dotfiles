@@ -6,15 +6,21 @@
 
 ### [Airline](https://github.com/vim-airline/vim-airline)
 ```git clone --depth=1 https://github.com/vim-airline/vim-airline ~/.vim/pack/plugins/start/vim-airline```
-Remember to run ```:helptags ~/.vim/pack/plugins/start/vim-airline/doc```
+```vim -u NONE -c "helptags ~/.vim/pack/plugins/start/vim-airline/doc" -c q```
 
 ### Solarized8
 ```git clone --depth=1 https://github.com/lifepillar/vim-solarized8.git ~/.vim/pack/themes/opt/solarized8```
 
+### Commentary
+```git clone --depth=1 https://tpope.io/vim/commentary.git ~/.vim/pack/plugins/start/commentary```
+```vim -u NONE -c "helptags ~/.vim/pack/plugins/start/commentary/doc" -c q```
+
+### Fugitive
+```git clone --depth=1 https://tpope.io/vim/fugitive.git ~/.vim/pack/plugins/start/fugitive```
+```vim -u NONE -c "helptags ~/.vim/pack/plugins/start/fugitive/doc" -c q```
+
 https://beyondgrep.com/why-ack/
 
-https://github.com/tpope/vim-commentary
-https://github.com/tpope/vim-fugitive
 https://github.com/tpope/vim-surround
 maybe:
 https://github.com/tpope/vim-sleuth
