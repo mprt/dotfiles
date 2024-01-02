@@ -19,11 +19,14 @@
 ```git clone --depth=1 https://tpope.io/vim/fugitive.git ~/.vim/pack/plugins/start/fugitive```
 ```vim -u NONE -c "helptags ~/.vim/pack/plugins/start/fugitive/doc" -c q```
 
+### [Surround](https://github.com/tpope/vim-surround)
+```git clone --depth=1 https://tpope.io/vim/surround.git ~/.vim/pack/plugins/start/surround```
+```vim -u NONE -c "helptags ~/.vim/pack/plugins/start/surround/doc" -c q```
+
 https://beyondgrep.com/why-ack/
 
 maybe:
 
-- https://github.com/tpope/vim-surround  
 - https://github.com/tpope/vim-sleuth  
 - https://github.com/dense-analysis/ale
 - https://github.com/preservim/nerdtree
