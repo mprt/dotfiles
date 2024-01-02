@@ -21,10 +21,11 @@
 
 https://beyondgrep.com/why-ack/
 
-https://github.com/tpope/vim-surround
 maybe:
-https://github.com/tpope/vim-sleuth
-https://github.com/dense-analysis/ale
-https://github.com/preservim/nerdtree
+
+- https://github.com/tpope/vim-surround  
+- https://github.com/tpope/vim-sleuth  
+- https://github.com/dense-analysis/ale
+- https://github.com/preservim/nerdtree
 
 https://github.com/tpope/vim-sensible/blob/master/plugin/sensible.vim
