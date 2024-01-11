@@ -1,6 +1,6 @@
 ### Rust
 vim  
-```git clone --depth=1 https://github.com/rust-lang/rust.vim ~/.vim/pack/plugins/start/rust.vim```
+```git clone --depth=1 https://github.com/rust-lang/rust.vim ~/.vim/pack/plugins/start/rust.vim```  
 bash  
 ```mkdir -p ~/.local/share/bash-completion/completions```  
 ```rustup completions bash >> ~/.local/share/bash-completion/completions/rustup```
