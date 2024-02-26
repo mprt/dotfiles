@@ -22,6 +22,7 @@
 
 "https://stackoverflow.com/questions/307148/vim-scrolling-slowly
 set ttyfast
+set nocompatible
 
 " move viminfo file
 set viminfo+=n~/.vim/viminfo
